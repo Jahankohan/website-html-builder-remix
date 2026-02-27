@@ -1,5 +1,6 @@
 import { Background } from '@/components/Background';
 import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from '@/pages/Home';
 import { Philosophy } from '@/pages/Philosophy';
@@ -21,6 +22,7 @@ function App() {
             <Route path="/ecosystem" element={<Ecosystem />} />
             <Route path="/rates" element={<Rates />} />
           </Routes>
+          <Footer />
         </div>
       </div>
     </BrowserRouter>
