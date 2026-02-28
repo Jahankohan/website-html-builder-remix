@@ -4,13 +4,16 @@ import {
   ArrowRight, 
   CheckCircle2, 
   Shield, 
+  ShieldCheck,
   Zap, 
   ArrowUpRight, 
   BookOpen, 
   Search, 
   Code, 
+  Database,
   FileText, 
   Info,
+  Lock,
   Layers
 } from 'lucide-react';
 import { Link } from 'react-router-dom';

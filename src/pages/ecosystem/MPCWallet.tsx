@@ -47,7 +47,7 @@ const mpcWalletData: EcosystemServiceProps = {
     { feature: "Key Storage", traditional: "Single Seed / Mnemonic", service: "Distributed Shards" },
     { feature: "Recovery Model", traditional: "Mnemonic Recovery", service: "Social/Distributed Resharding" },
     { feature: "Attack Surface", traditional: "Single Point of Failure", service: "Distributed Multi-Node" },
-    { feature: "Enforcement", traditional: "Application Layer Only", ecosystem: "Protocol Layer Cryptography" }
+    { feature: "Enforcement", traditional: "Application Layer Only", service: "Protocol Layer Cryptography" }
   ],
   useCases: [
     {
