@@ -6,6 +6,7 @@ import { Home } from '@/pages/Home';
 import { Philosophy } from '@/pages/Philosophy';
 import { Ecosystem } from '@/pages/Ecosystem';
 import { Rates } from '@/pages/Rates';
+import { Blog } from '@/pages/Blog';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/philosophy" element={<Philosophy />} />
             <Route path="/ecosystem" element={<Ecosystem />} />
             <Route path="/rates" element={<Rates />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
           <Footer />
         </div>

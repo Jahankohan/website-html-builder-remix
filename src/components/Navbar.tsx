@@ -21,6 +21,7 @@ export function Navbar() {
         <Link to="/philosophy" className="text-xs font-medium text-white/50 hover:text-white transition-colors">Philosophy</Link>
         <Link to="/ecosystem" className="text-xs font-medium text-white/50 hover:text-white transition-colors">Ecosystem</Link>
         <Link to="/rates" className="text-xs font-medium text-white/50 hover:text-white transition-colors">Rates</Link>
+        <Link to="/blog" className="text-xs font-medium text-white/50 hover:text-white transition-colors">Blog</Link>
       </div>
 
       {/* Action Button */}

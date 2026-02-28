@@ -16,7 +16,7 @@ export function Footer() {
       { name: 'About', href: '#' },
       { name: 'Careers', href: '#' },
       { name: 'Contact', href: '#' },
-      { name: 'Blog', href: '#' },
+      { name: 'Blog', href: '/blog' },
     ],
     legal: [
       { name: 'Terms of Service', href: '#' },
@@ -81,9 +81,9 @@ export function Footer() {
             <ul className="space-y-4">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
-                  <a href={link.href} className="text-white/40 hover:text-primary transition-colors text-sm">
+                  <Link to={link.href} className="text-white/40 hover:text-primary transition-colors text-sm">
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
