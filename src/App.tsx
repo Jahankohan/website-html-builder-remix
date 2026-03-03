@@ -11,6 +11,7 @@ import { ComingSoon } from '@/pages/ecosystem/Placeholder';
 import { AIInfrastructureTeams } from '@/pages/segments/AIInfrastructureTeams';
 import { Web3Startups } from '@/pages/segments/Web3Startups';
 import { CryptoEnterprises } from '@/pages/segments/CryptoEnterprises';
+import { About } from '@/pages/About';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route path="/for-ai-infrastructure-teams" element={<AIInfrastructureTeams />} />
             <Route path="/for-web3-startups" element={<Web3Startups />} />
             <Route path="/for-crypto-enterprises" element={<CryptoEnterprises />} />
+            <Route path="/about" element={<About />} />
           </Routes>
           <Footer />
         </div>

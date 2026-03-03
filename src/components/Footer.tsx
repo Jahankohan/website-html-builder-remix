@@ -14,9 +14,9 @@ export function Footer() {
       { name: 'Documentation', href: '#', external: true },
     ],
     company: [
-      { name: 'About', href: '#' },
+      { name: 'About', href: '/about' },
       { name: 'Careers', href: '#' },
-      { name: 'Contact', href: '#' },
+      { name: 'Contact', href: '/about#contact' },
       { name: 'Blog', href: '/blog' },
     ],
     legal: [

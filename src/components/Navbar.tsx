@@ -18,6 +18,7 @@ export function Navbar() {
       {/* Links (Hidden on small screens) */}
       <div className="hidden md:flex items-center gap-6 mr-8">
         <Link to="/ecosystem" className="text-xs font-medium text-white/50 hover:text-white transition-colors">Ecosystem</Link>
+        <Link to="/about" className="text-xs font-medium text-white/50 hover:text-white transition-colors">About</Link>
         <Link to="/blog" className="text-xs font-medium text-white/50 hover:text-white transition-colors">Blog</Link>
       </div>
 
